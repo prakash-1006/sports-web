@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('image/lockwp.jpg'); /* Add correct file extension */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Container box */
+#c1 {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    padding: 30px 40px;
+    margin: 120px auto;
+    background: conic-gradient(from 0deg, hsl(303, 100%, 50%), cyan, blue, magenta);
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.85);
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    z-index: 1;
+}
+
+/* Form styles */
+#f1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+/* Input fields */
+#username,
+#password {
+    padding: 10px 20px;
+    padding-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: none;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow: 4px 4px 8px #d57f7f, -4px -4px 8px #ffffff;
+    outline: none;
+}
+
+input::placeholder {
+    color: #ffffffb0;
+    font-weight: normal;
+}
+
+/* Button */
+#f1 button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+}
+
+#f1 button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.03);
+}
+
+/* Paragraph */
+#f1 p {
+    font-size: 0.85rem;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+/* Optional: make inputs responsive */
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+#fppp{
+    text-align: center;
+    margin-top: 10px;
+    list-style-type: none;
+}
+#an{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    text-shadow: 1px 1px 3px black;
+    transition: 0.3s;
+}
+#an:hover {
+   
+    color: #ffcc00;
+    text-decoration: underline;
+}
